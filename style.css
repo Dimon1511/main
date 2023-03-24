@@ -1,137 +1,253 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat+Alternates&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat+Alternates&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .task1 {
-    display: flex;
-    width: 576px;
-    height: 91px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+   display: flex;
+   width: 576px;
+   height: 91px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
 }
 
 .holder {
-    display: flex;
-    height: 35px;
-    width: 576px;
-    align-items: center;
-    justify-content: space-between;
+   display: flex;
+   height: 35px;
+   width: 576px;
+   align-items: center;
+   justify-content: space-between;
 }
 
 input {
-    padding: 10px 45px 10px 10px;
-    width: 215px;
-    height: 35px;
+   width: 215px;
+   height: 35px;
 }
 
 .head_text {
-    width: 283px;
-    height: 20px;
-    margin: 36px;
+   width: 283px;
+   height: 20px;
+   /* margin: 36px; */
 
-    font-family: 'Montserrat Alternates';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+   font-family: "Montserrat Alternates";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
 }
 
 .fa-search {
-    padding: 10px;
-    width: 35px;
-    height: 35px;
-    background: #000000;
-    border-radius: 0px 20px 20px 0px;
-    background: url("/img/icon-search.png") no-repeat;
+   padding: 10px;
+   width: 35px;
+   height: 35px;
+   background: #000000;
+   border-radius: 0px 20px 20px 0px;
+   background: url("/img/icon-search.png") no-repeat;
 }
 
 .inputWidthIcon {
-    position: relative;
-    width: 215px;
+   position: relative;
+   width: 215px;
 }
 
 .inputWidthIcon input {
-    padding: 10px 45px 10px 10px;
-    border-radius: 20px;
-    width: 215px;
-    height: 35px;
-    background: #D7D7D7;
+   padding: 10px 45px 10px 10px;
+   border-radius: 20px;
+   width: 215px;
+   height: 35px;
+   background: #d7d7d7;
 }
 
 input::placeholder {
-    font-family: 'Montserrat Alternates';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+   font-family: "Montserrat Alternates";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
 }
 
 .inputWidthIcon i {
-    position: absolute;
-    right: 0;
-    width: 35px;
-    height: 35px;
+   position: absolute;
+   right: 0;
+   width: 35px;
+   height: 35px;
 }
 
 .result_text {
-    font-family: 'Montserrat Alternates';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #039900;
+   font-family: "Montserrat Alternates";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+   color: #039900;
 }
 
 .border_line {
-    margin-top: 36px;
-    margin-bottom: 36px;
+   width: 536px;
+   margin-top: 36px;
+   margin-bottom: 36px;
+
 }
 
 /* task2 */
 
 .container-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .task2 {
-    display: flex;
-    width: 627px;
-    height: 116px;
-    flex-direction: column;
-    align-items: center;
+   display: flex;
+   width: 627px;
+   height: 116px;
+   flex-direction: column;
+   align-items: center;
 }
 
-
-
 .calculator_text {
-    width: 119px;
-    height: 20px;
-    margin-bottom: 36px;
+   width: 119px;
+   height: 20px;
+   margin-bottom: 36px;
+}
+
+h3 {
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
 }
 
 .cont {
-    display: flex;
-    width: 627px;
-    height: 60px;
+   display: flex;
+   width: 627px;
+   height: 60px;
 
+   align-items: center;
+   justify-content: space-between;
 }
 
-
 .num-button {
-    display: flex;
-    width: 62px;
-    height: 60px;
+   width: 62px;
+   height: 60px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.num-button i {
+   display: flex;
+   width: 27px;
+   height: 25px;
+   margin: 1px;
+}
+
+input::placeholder {
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+   color: #7E7E7E;
+}
+
+.cont input {
+   display: flex;
+   padding: 10px 20px;
+   width: 138px;
+   height: 35px;
+   background: #D7D7D7;
+   box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+}
+
+.img1 {
+   background: url(./img/icon-divide.png) no-repeat;
+}
+
+.img2 {
+   background: url(./img/icon-minus.png) no-repeat;
+}
+
+.img3 {
+   background: url(./img/icon-multiply.png) no-repeat;
+}
+
+.img4 {
+   background: url(./img/icon-plus.png) no-repeat;
+}
+
+.img5 {
+   background: url(./img/icon_equal.png);
+}
+
+.img5 {
+   width: 27px;
+   height: 25px;
+}
+
+.container-3 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.task3 {
+   display: flex;
+   width: 481px;
+   height: 142px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.writeInput input {
+   width: 138px;
+   height: 35px;
+   padding: 10px 20px;
+   background: #D7D7D7;
+   box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+}
+
+.writeInput::placeholder {
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+}
+
+.write-text {
+   width: 141px;
+   height: 20px;
+}
+
+.writeInput {
+   display: flex;
+   width: 481px;
+   height: 35px;
+   justify-content: space-between;
+}
+
+.foot-text {
+   width: 252px;
+   height: 15px;
+
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
 }

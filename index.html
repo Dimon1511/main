@@ -1,43 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <div class="task1">
-            <h3 class="head_text">Перевір в який рік ти народився</h3>
-            <div class="holder">
-                <div class="inputWidthIcon">
-                    <input type="text" placeholder="Введіть рік народження">
-                    <i class="fa-search"></i>
-                </div>
-                <p class="result_text">Ви народилися у високосний рік!</p>
-            </div>
-            <hr class="border_line">
-        </div>
-    </div>
 
-    <div class="container-2">
-        <div class="task2">
-            <h3 class="calculator_text">Калькулятор</h3>
-            <div class="cont">
-                <input type="text" placeholder="Введіть число">
-                <input type="text" placeholder="Введіть число">
-                <input type="text" placeholder="Результат">
-                <i></i>
-                <div class="num-button">
-                    <i>=</i>
-                    <i>=</i>
-                    <i>=</i>
-                    <i>=</i>
-                </div>
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="./style.css" />
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="container">
+      <div class="task1">
+         <h3 class="head_text">Перевір в який рік ти народився</h3>
+         <div class="holder">
+            <div class="inputWidthIcon">
+               <input type="text" placeholder="Введіть рік народження" />
+               <i class="fa-search"></i>
             </div>
-        </div>
-    </div>
+            <p class="result_text">Ви народилися у високосний рік!</p>
+         </div>
+      </div>
+      <hr class="border_line" />
+      <div class="task2">
+         <h3 class="calculator_text">Калькулятор</h3>
+         <div class="cont">
+            <input type="text" placeholder="Введіть число" />
+            <div class="num-button">
+               <i class="img1"></i>
+               <i class="img2"></i>
+               <i class="img3"></i>
+               <i class="img4"></i>
+            </div>
+            <input type="text" placeholder="Введіть число" />
+            <i class="img5"></i>
+            <input type="text" placeholder="Результат" />
+         </div>
+      </div>
+      <hr class="border_line" />
+      <div class="task3">
+         <h3 class="write-text">Введіть 3 числа</h3>
+         <div id="Singlebtn" class="writeInput">
+            <input id="numLow" type="text" placeholder="Введіть число">
+            <input id="numDraw" type="text" placeholder="Введіть число">
+            <input id="numMax" type="text" placeholder="Введіть число">
+         </div>
+         <h4 id="para" class="foot-text">Найбільше число, яке ви ввели - (число)</h4>
+      </div>
+   </div>
+
+   <script src="./js.js"></script>
 </body>
+
 </html>
