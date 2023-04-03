@@ -251,3 +251,120 @@ input::placeholder {
    font-size: 12px;
    line-height: 15px;
 }
+
+/* task4 */
+
+.canvas {
+   border: 2px solid black;
+   border-radius: 27px;
+}
+
+.foot__ball {
+   margin-bottom: 36px;
+
+}
+
+.task7 {
+   display: flex;
+   width: 720px;
+   height: 276px;
+   flex-direction: column;
+   align-items: center;
+}
+
+.birthday-heading {
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+}
+
+/* slider */
+
+.iy {
+   max-width: 1200px;
+   margin: 30px auto;
+   padding: 30px;
+}
+
+.student {
+   width: 256px;
+   height: 256px;
+   margin: 20px auto;
+   overflow: hidden;
+}
+
+.my-pictures-section {
+   width: 1024px;
+   height: 256px;
+   display: flex;
+   position: relative;
+   left: 0;
+   transition: all ease 1s;
+}
+
+#arrow-left {
+   content: url(./img/arrow-left.svg);
+   position: absolute;
+   left: -328px;
+   top: 100px;
+   width: 50px;
+   height: 100px;
+   color: #000000;
+   cursor: pointer;
+}
+
+#arrow-right {
+   content: url(./img/arrow-right.svg);
+   position: absolute;
+   right: -328px;
+   top: 100px;
+   width: 50px;
+   height: 100px;
+   color: #000000;
+   cursor: pointer;
+}
+
+
+.game-section-title {
+   height: 20px;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #000000;
+}
+
+
+.game-section {
+   position: relative;
+   padding: 36px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   row-gap: 36px;
+}
+
+.img-title {
+   width: 115px;
+   height: 17px;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+}
+
+.img-subtitle {
+   width: 315px;
+   height: 15px;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+}

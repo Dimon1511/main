@@ -22,22 +22,24 @@
          </div>
       </div>
       <hr class="border_line" />
+      <!-- task2 -->
       <div class="task2">
          <h3 class="calculator_text">Калькулятор</h3>
          <div class="cont">
-            <input type="text" placeholder="Введіть число" />
+            <input id="read1" type="text" placeholder="Введіть число" />
             <div class="num-button">
-               <i class="img1"></i>
-               <i class="img2"></i>
-               <i class="img3"></i>
-               <i class="img4"></i>
+               <i id="divide" class="img1"></i>
+               <i id="minus" class="img2"></i>
+               <i id="multiply" class="img3"></i>
+               <i id="plus" class="img4"></i>
             </div>
-            <input type="text" placeholder="Введіть число" />
-            <i class="img5"></i>
-            <input type="text" placeholder="Результат" />
+            <input id="read2" type="text" placeholder="Введіть число" />
+            <i id="equal" class="img5"></i>
+            <input id="resultNum" type="text" placeholder="Результат" />
          </div>
       </div>
       <hr class="border_line" />
+      <!-- task3 -->
       <div class="task3">
          <h3 class="write-text">Введіть 3 числа</h3>
          <div id="Singlebtn" class="writeInput">
@@ -45,11 +47,49 @@
             <input id="numDraw" type="text" placeholder="Введіть число">
             <input id="numMax" type="text" placeholder="Введіть число">
          </div>
-         <h4 id="para" class="foot-text">Найбільше число, яке ви ввели - (число)</h4>
+         <h4 id="para" class="foot-text">Найбільше число, яке ви ввели - <span id="resultNum">(число)</span></h4>
       </div>
+      <hr class="border_line" />
+      <div class="task7">
+         <div class="birthday foot__ball">
+           <h2 class="birthday-heading">Футбол</h2>
+         </div>
+   
+         <div class="football">
+           <canvas class="canvas"></canvas>
+         </div>
+       </div>
+       <hr class="border_line" />
+       <div class="game-section iy">
+         <div class="student">
+             <p id="arrow-left"></p>
+             <h2 class="game-section-title">Наша команда</h2>
+             <div class="my-pictures-section">
+                 <img src="./img/elephant.png" width="256px" height="256px" class="img-section" alt="">
+                 <img src="./img/gorilla.png" width="256px" height="256px" class="img-section" alt="">
+                 <img src="./img/elephant.png" width="256px" height="256px" class="img-section" alt="">
+                 <img src="./img/gorilla.png" width="256px" height="256px" class="img-section" alt="">
+             </div>
+             <p id="arrow-right"></p>
+         </div>
+         <h2 class="img-title">Noname</h2>
+         <p class="img-subtitle">Зробили цей сайт по макету</p>
+         <div class="slider-pagination">
+             <div id="first" class="non-active-link"></div>
+             <div id="second" class="non-active-link"></div>
+             <div id="third" class="non-active-link"></div>
+             <div id="fourth" class="non-active-link"></div>
+         </div>
+         <hr>
+     </div>
    </div>
+   
+   
 
-   <script src="./js.js"></script>
+   <script src="./js.js" defer></script>
+   <script src="./calculator.js" defer></script>
+   <script src="./football.js" defer></script>
+   <script src="slider.js" defer></script>
 </body>
 
 </html>
